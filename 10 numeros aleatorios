@@ -1,0 +1,15 @@
+#include<time.h>
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+int main(){
+    int cont;
+    int num;
+    srand(time(0));
+    for(cont=0;cont<10;cont ++){
+           num=rand()%10+1;
+           cout<<num<<" ";
+           }
+cin.get();
+cin.get();
+}
